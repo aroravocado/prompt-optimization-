@@ -10,4 +10,4 @@ cleanup with LLM-based semantic compression planned as the next layer.
 4. (Next) LLM rewrite layer for deeper compression
 
 ## Tech stack
-Python, Streamlit
+Python
