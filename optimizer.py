@@ -76,7 +76,7 @@ def configure_gemini():
     genai.configure(api_key=api_key)
 
 
-def optimize_prompt(original_prompt: str, model_name: str = "gemini-1.5-flash") -> str:
+def optimize_prompt(original_prompt: str, model_name: str = "gemini-3.8-flash") -> str:
     """
     Sends the original prompt to Gemini and returns the optimized
     (token-reduced) version.
