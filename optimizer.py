@@ -84,9 +84,7 @@ def optimize_prompt(original_prompt: str, model_name: str = "gemini-3.8-flash") 
     Args:
         original_prompt (str): The prompt the user wants optimized.
         model_name (str): Which Gemini model to use. Defaults to the
-            fast, cost-efficient "gemini-1.5-flash" model, which is
-            ideal for a quick hackathon demo.
-
+            fast, cost-efficient "gemini-3.8-flash" model.
     Returns:
         str: The optimized prompt text.
 
